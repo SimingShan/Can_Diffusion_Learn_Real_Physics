@@ -63,3 +63,5 @@
 <p align="center">
     <em>Forward velocity prediction results for geophysical scenarios. Comparison between model predictions and reference data demonstrates the accuracy of our approach in capturing subsurface structures.</em>
 </p>
+
+### If you find any difficulties in reproducing the results, please contact the author through siming.shan.gr@dartmouth.edu 
