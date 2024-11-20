@@ -16,6 +16,26 @@ Generate your own Kolmogorov Flow in our interactive demo: [Kolmogorov Flow Gene
 - **Kolmogorov Flow Model**: [Download Weights](https://drive.google.com/file/d/1RRQN71KGJS-pruVhf2kDv0e4Z8Z3ow46/view?usp=sharing)
 - **Geophysics Velocity Map Model**: [Download Weights](https://drive.google.com/file/d/1n4Alx2foT0oJ5Ve-wxuBO31-3sLzw508/view?usp=sharing)
 
+## Data Wrangling Process
+
+### Training
+- For Kolmogorov flow: `train/train_flow.py`
+- For velocity maps: `train/train_velocity_map.py`
+
+### Sampling
+Generate synthetic data using:
+- Kolmogorov flow: `sample/sample_kf.py`
+- Velocity maps: `sample/sample_vm.py`
+
+### Domain-Specific Analysis
+
+#### Kolmogorov Flow Evaluation
+- Generate kinetic spectrum: `evaluation/kinetic.py`
+- Mass conservation analysis: Convert vorticity to velocity field using `evaluation/velocity_plot.py`
+
+#### Velocity Map Evaluation
+- Convert velocity maps to seismic data for validation: `evaluation/seismic_vis.py`
+
 ## Results Visualization
 
 ### 1. Fluid Mechanics Example: Kolmogorov Flow Generation
