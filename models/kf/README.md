@@ -1,0 +1,1 @@
+# Please Place the pretrained weight for Kolmogorov Flow in this folder
