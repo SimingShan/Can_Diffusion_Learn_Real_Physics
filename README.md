@@ -1,5 +1,7 @@
 # Physical Field Generation via Diffusion Models
-
+Please check out our paper for this project - "diffusion_for_science.pdf". \
+Please also check out our huggingface space link https://huggingface.co/spaces/SimingShan/Kolmogorov_Flow
+to generate your own Kolmogorov Flow for fun !
 ## Dataset and Model Weights Access
 
 ### Datasets
